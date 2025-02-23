@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build firmware",
+            "type": "shell",
+            "command": "arduino-cli compile -b esp8266:esp8266:d1 firmware/gunner47_v2.87in1/gunner47_v2.87in1.ino --libraries libraries/ --output-dir bin/",
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}

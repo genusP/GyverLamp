@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/workspaces/GyverLamp/libraries/AsyncTCP",
+    "autoHide.hideSideBarsOnDebug": false,
+    "autoHide.hidePanelOnDebug": false,
+    "arduino.useArduinoCli": true
+}

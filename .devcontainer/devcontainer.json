@@ -1,0 +1,12 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "/bin/sh scripts/setup.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscode-arduino.vscode-arduino-community",
+                "ms-vscode.cpptools"
+            ]
+        }
+    }
+}
